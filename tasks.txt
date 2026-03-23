@@ -1,0 +1,13 @@
+Date: on 20/02/2026
+I met my supervisor and we change the topic title: "Deep Learning and Visual Language Model (VLM) based Real-Time Fighting Detection on Beach Safety Management."
+
+New requirements:
+- The software should work with some AI agent inside the project.
+- we are doing the project on the beach for the fighting
+- try to check if there is a way of changing the human body in (warm shape, because of privacy as some might be without clothes)
+- having a chatbot were the user can ask for tracking someone on the camera during the recording.
+
+
+
+
+look, you have to change the dates as well. as the 20th Feb my supervisor changed the topic title. do everything accordingly to it. he said that it is like the project start on that day, but you have to put what I did before that day too
