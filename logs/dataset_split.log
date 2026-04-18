@@ -1,0 +1,147 @@
+2026-04-10 00:02:12,583  INFO  =================================================================
+2026-04-10 00:02:12,584  INFO    D11 Dataset Splitting — 70 / 15 / 15
+2026-04-10 00:02:12,585  INFO    Student : Singo Loua | 240086608
+2026-04-10 00:02:12,586  INFO    Seed    : 42 (fixed for reproducibility)
+2026-04-10 00:02:12,586  INFO    Input   : C:\beach\data\thermal
+2026-04-10 00:02:12,586  INFO    Output  : C:\beach\data\split
+2026-04-10 00:02:12,587  INFO  =================================================================
+2026-04-10 00:02:12,587  INFO  
+Processing class: fight
+2026-04-10 00:02:12,588  INFO    Scanning frames in C:\beach\data\thermal\fight ...
+2026-04-10 00:02:16,683  INFO    Found 2121 videos, 34,779 frames total
+2026-04-10 00:02:16,685  INFO    Videos assigned: train=1484 | val=318 | test=319
+2026-04-10 00:02:16,685  INFO      [fight] No data leakage — all splits are clean.
+2026-04-10 00:02:16,686  INFO    Copying frames...
+2026-04-10 00:03:31,532  INFO      train  / fight      : 24,217 frames from 1484 videos
+2026-04-10 00:03:48,524  INFO      val    / fight      :  5,495 frames from  318 videos
+2026-04-10 00:04:03,834  INFO      test   / fight      :  5,067 frames from  319 videos
+2026-04-10 00:04:03,836  INFO  
+Processing class: no_fight
+2026-04-10 00:04:03,836  INFO    Scanning frames in C:\beach\data\thermal\no_fight ...
+2026-04-10 00:04:06,187  INFO    Found 1101 videos, 25,317 frames total
+2026-04-10 00:04:06,221  INFO    Videos assigned: train=770 | val=165 | test=166
+2026-04-10 00:04:06,221  INFO      [no_fight] No data leakage — all splits are clean.
+2026-04-10 00:04:06,222  INFO    Copying frames...
+2026-04-10 00:05:00,877  INFO      train  / no_fight   : 17,694 frames from  770 videos
+2026-04-10 00:05:12,507  INFO      val    / no_fight   :  3,735 frames from  165 videos
+2026-04-10 00:05:24,553  INFO      test   / no_fight   :  3,888 frames from  166 videos
+2026-04-10 00:05:24,553  INFO  
+=================================================================
+2026-04-10 00:05:24,554  INFO    D11 COMPLETE — Final Dataset Summary
+2026-04-10 00:05:24,554  INFO  =================================================================
+2026-04-10 00:05:24,554  INFO  
+  Class         Videos    Total  Train(70%)  Val(15%) Test(15%)
+2026-04-10 00:05:24,554  INFO    ------------------------------------------------------------
+2026-04-10 00:05:24,554  INFO    fight          2,121   34,779      24,217     5,495     5,067
+2026-04-10 00:05:24,554  INFO    no_fight       1,101   25,317      17,694     3,735     3,888
+2026-04-10 00:05:24,554  INFO    ------------------------------------------------------------
+2026-04-10 00:05:24,554  INFO    TOTAL                  60,096      41,911     9,230     8,955
+2026-04-10 00:05:24,555  INFO  
+  Actual split ratios:
+2026-04-10 00:05:24,555  INFO      Train : 69.7%
+2026-04-10 00:05:24,555  INFO      Val   : 15.4%
+2026-04-10 00:05:24,555  INFO      Test  : 14.9%
+2026-04-10 00:05:24,555  INFO  
+  Output folder : C:\beach\data\split
+2026-04-10 00:05:24,555  INFO    Log file      : C:\beach\logs\dataset_split.log
+2026-04-10 00:05:24,555  INFO  
+  NEXT STEP: D12 — Train YOLOv8 baseline model
+2026-04-10 00:05:24,555  INFO  =================================================================
+2026-04-10 01:06:25,047  INFO  =================================================================
+2026-04-10 01:06:25,047  INFO    D11 Dataset Splitting — 70 / 15 / 15
+2026-04-10 01:06:25,048  INFO    Student : Singo Loua | 240086608
+2026-04-10 01:06:25,049  INFO    Seed    : 42 (fixed for reproducibility)
+2026-04-10 01:06:25,049  INFO    Input   : C:\beach\data\thermal
+2026-04-10 01:06:25,049  INFO    Output  : C:\beach\data\split
+2026-04-10 01:06:25,049  INFO  =================================================================
+2026-04-10 01:06:25,050  INFO  
+Processing class: fight
+2026-04-10 01:06:25,050  INFO    Scanning frames in C:\beach\data\thermal\fight ...
+2026-04-10 01:06:26,703  INFO    Found 2121 videos, 34,779 frames total
+2026-04-10 01:06:26,704  INFO    Videos assigned: train=1484 | val=318 | test=319
+2026-04-10 01:06:26,705  INFO      [fight] No data leakage — all splits are clean.
+2026-04-10 01:06:26,705  INFO    Copying frames...
+2026-04-10 01:07:28,993  INFO      train  / fight      : 24,217 frames from 1484 videos
+2026-04-10 01:07:43,986  INFO      val    / fight      :  5,495 frames from  318 videos
+2026-04-10 01:07:57,419  INFO      test   / fight      :  5,067 frames from  319 videos
+2026-04-10 01:07:57,421  INFO  
+Processing class: no_fight
+2026-04-10 01:07:57,421  INFO    Scanning frames in C:\beach\data\thermal\no_fight ...
+2026-04-10 01:07:58,521  INFO    Found 1101 videos, 25,317 frames total
+2026-04-10 01:07:58,549  INFO    Videos assigned: train=770 | val=165 | test=166
+2026-04-10 01:07:58,549  INFO      [no_fight] No data leakage — all splits are clean.
+2026-04-10 01:07:58,549  INFO    Copying frames...
+2026-04-10 01:08:47,620  INFO      train  / no_fight   : 17,694 frames from  770 videos
+2026-04-10 01:08:57,799  INFO      val    / no_fight   :  3,735 frames from  165 videos
+2026-04-10 01:09:08,565  INFO      test   / no_fight   :  3,888 frames from  166 videos
+2026-04-10 01:09:08,565  INFO  
+=================================================================
+2026-04-10 01:09:08,565  INFO    D11 COMPLETE — Final Dataset Summary
+2026-04-10 01:09:08,565  INFO  =================================================================
+2026-04-10 01:09:08,566  INFO  
+  Class         Videos    Total  Train(70%)  Val(15%) Test(15%)
+2026-04-10 01:09:08,566  INFO    ------------------------------------------------------------
+2026-04-10 01:09:08,566  INFO    fight          2,121   34,779      24,217     5,495     5,067
+2026-04-10 01:09:08,566  INFO    no_fight       1,101   25,317      17,694     3,735     3,888
+2026-04-10 01:09:08,566  INFO    ------------------------------------------------------------
+2026-04-10 01:09:08,566  INFO    TOTAL                  60,096      41,911     9,230     8,955
+2026-04-10 01:09:08,566  INFO  
+  Actual split ratios:
+2026-04-10 01:09:08,567  INFO      Train : 69.7%
+2026-04-10 01:09:08,567  INFO      Val   : 15.4%
+2026-04-10 01:09:08,567  INFO      Test  : 14.9%
+2026-04-10 01:09:08,567  INFO  
+  Output folder : C:\beach\data\split
+2026-04-10 01:09:08,567  INFO    Log file      : C:\beach\logs\dataset_split.log
+2026-04-10 01:09:08,567  INFO  
+  NEXT STEP: D12 — Train YOLOv8 baseline model
+2026-04-10 01:09:08,567  INFO  =================================================================
+2026-04-10 01:22:11,905  INFO  =================================================================
+2026-04-10 01:22:11,906  INFO    D11 Dataset Splitting — 70 / 15 / 15
+2026-04-10 01:22:11,906  INFO    Student : Singo Loua | 240086608
+2026-04-10 01:22:11,906  INFO    Seed    : 42 (fixed for reproducibility)
+2026-04-10 01:22:11,906  INFO    Input   : C:\beach\data\thermal
+2026-04-10 01:22:11,908  INFO    Output  : C:\beach\data\split
+2026-04-10 01:22:11,908  INFO  =================================================================
+2026-04-10 01:22:11,908  INFO  
+Processing class: fight
+2026-04-10 01:22:11,908  INFO    Scanning frames in C:\beach\data\thermal\fight ...
+2026-04-10 01:22:13,924  INFO    Found 2121 videos, 34,779 frames total
+2026-04-10 01:22:13,927  INFO    Videos assigned: train=1484 | val=318 | test=319
+2026-04-10 01:22:13,928  INFO      [fight] No data leakage — all splits are clean.
+2026-04-10 01:22:13,928  INFO    Copying frames...
+2026-04-10 01:23:21,616  INFO      train  / fight      : 24,217 frames from 1484 videos
+2026-04-10 01:23:36,683  INFO      val    / fight      :  5,495 frames from  318 videos
+2026-04-10 01:23:50,201  INFO      test   / fight      :  5,067 frames from  319 videos
+2026-04-10 01:23:50,202  INFO  
+Processing class: no_fight
+2026-04-10 01:23:50,202  INFO    Scanning frames in C:\beach\data\thermal\no_fight ...
+2026-04-10 01:23:51,335  INFO    Found 1110 videos, 25,659 frames total
+2026-04-10 01:23:51,361  INFO    Videos assigned: train=777 | val=166 | test=167
+2026-04-10 01:23:51,362  INFO      [no_fight] No data leakage — all splits are clean.
+2026-04-10 01:23:51,362  INFO    Copying frames...
+2026-04-10 01:24:43,214  INFO      train  / no_fight   : 17,961 frames from  777 videos
+2026-04-10 01:24:54,707  INFO      val    / no_fight   :  3,767 frames from  166 videos
+2026-04-10 01:25:06,581  INFO      test   / no_fight   :  3,931 frames from  167 videos
+2026-04-10 01:25:06,581  INFO  
+=================================================================
+2026-04-10 01:25:06,582  INFO    D11 COMPLETE — Final Dataset Summary
+2026-04-10 01:25:06,582  INFO  =================================================================
+2026-04-10 01:25:06,583  INFO  
+  Class         Videos    Total  Train(70%)  Val(15%) Test(15%)
+2026-04-10 01:25:06,583  INFO    ------------------------------------------------------------
+2026-04-10 01:25:06,583  INFO    fight          2,121   34,779      24,217     5,495     5,067
+2026-04-10 01:25:06,583  INFO    no_fight       1,110   25,659      17,961     3,767     3,931
+2026-04-10 01:25:06,583  INFO    ------------------------------------------------------------
+2026-04-10 01:25:06,583  INFO    TOTAL                  60,438      42,178     9,262     8,998
+2026-04-10 01:25:06,583  INFO  
+  Actual split ratios:
+2026-04-10 01:25:06,585  INFO      Train : 69.8%
+2026-04-10 01:25:06,585  INFO      Val   : 15.3%
+2026-04-10 01:25:06,585  INFO      Test  : 14.9%
+2026-04-10 01:25:06,586  INFO  
+  Output folder : C:\beach\data\split
+2026-04-10 01:25:06,586  INFO    Log file      : C:\beach\logs\dataset_split.log
+2026-04-10 01:25:06,586  INFO  
+  NEXT STEP: D12 — Train YOLOv8 baseline model
+2026-04-10 01:25:06,586  INFO  =================================================================

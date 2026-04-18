@@ -1,0 +1,222 @@
+2026-04-18 10:02:30,429 INFO Loading models...
+2026-04-18 10:02:30,606 INFO   Segmentation model loaded
+2026-04-18 10:02:30,644 INFO   D13 classification model loaded: C:\beach\models\d13_full\weights\best.pt
+2026-04-18 10:02:30,644 INFO All models loaded.
+2026-04-18 10:02:30,645 INFO =================================================================
+2026-04-18 10:02:30,645 INFO   D19 Beach Safety Gradio Prototype
+2026-04-18 10:02:30,646 INFO   Student : Singo Loua | 240086608
+2026-04-18 10:02:30,646 INFO   Started : 2026-04-18 10:02:30
+2026-04-18 10:02:30,647 INFO =================================================================
+2026-04-18 10:02:32,742 INFO   Ollama: Running
+2026-04-18 10:02:32,742 INFO   D13 model: Found
+2026-04-18 10:02:32,743 INFO 
+  Starting Gradio interface...
+2026-04-18 10:02:32,743 INFO   Open: http://localhost:7860
+2026-04-18 10:02:32,743 INFO =================================================================
+2026-04-18 10:06:04,176 INFO Loading models...
+2026-04-18 10:06:04,570 INFO   Segmentation model loaded
+2026-04-18 10:06:04,655 INFO   D13 classification model loaded: C:\beach\models\d13_full\weights\best.pt
+2026-04-18 10:06:04,655 INFO All models loaded.
+2026-04-18 10:06:04,657 INFO =================================================================
+2026-04-18 10:06:04,658 INFO   D19 Beach Safety Gradio Prototype
+2026-04-18 10:06:04,658 INFO   Student : Singo Loua | 240086608
+2026-04-18 10:06:04,659 INFO   Started : 2026-04-18 10:06:04
+2026-04-18 10:06:04,660 INFO =================================================================
+2026-04-18 10:06:06,738 INFO   Ollama: Running
+2026-04-18 10:06:06,739 INFO   D13 model: Found
+2026-04-18 10:06:06,741 INFO 
+  Starting Gradio interface...
+2026-04-18 10:06:06,741 INFO   Open: http://localhost:7860
+2026-04-18 10:06:06,741 INFO =================================================================
+2026-04-18 10:06:07,265 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-04-18 10:06:07,980 INFO HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 10:06:11,438 INFO HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 10:06:13,594 INFO HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-04-18 10:06:13,896 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-04-18 10:22:59,317 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 10:41:52,271 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 10:54:38,785 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 10:57:51,674 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 11:39:01,894 INFO Loading models...
+2026-04-18 11:39:02,052 INFO   Segmentation model loaded
+2026-04-18 11:39:02,094 INFO   D13 classification model loaded: C:\beach\models\d13_full\weights\best.pt
+2026-04-18 11:39:02,095 INFO All models loaded.
+2026-04-18 11:39:02,095 INFO =================================================================
+2026-04-18 11:39:02,097 INFO   D19 Beach Safety Gradio Prototype
+2026-04-18 11:39:02,097 INFO   Student : Singo Loua | 240086608
+2026-04-18 11:39:02,098 INFO   Started : 2026-04-18 11:39:02
+2026-04-18 11:39:02,098 INFO =================================================================
+2026-04-18 11:39:04,172 INFO   Ollama: Running
+2026-04-18 11:39:04,173 INFO   D13 model: Found
+2026-04-18 11:39:04,173 INFO 
+  Starting Gradio interface...
+2026-04-18 11:39:04,173 INFO   Open: http://localhost:7860
+2026-04-18 11:39:04,173 INFO =================================================================
+2026-04-18 11:39:04,744 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-04-18 11:39:05,248 INFO HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 11:39:07,123 INFO HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 11:39:09,188 INFO HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-04-18 11:39:09,339 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-04-18 11:45:15,322 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 11:48:53,472 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 11:50:43,208 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 11:50:44,075 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 11:59:58,715 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 12:04:03,499 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 12:06:31,676 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 12:10:46,026 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 12:11:28,803 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 12:14:26,490 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 17:07:49,730 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 17:18:39,263 INFO Loading models...
+2026-04-18 17:18:39,433 INFO   Segmentation model loaded
+2026-04-18 17:18:39,466 INFO   D13 classification model loaded: C:\beach\models\d13_full\weights\best.pt
+2026-04-18 17:18:39,467 INFO All models loaded.
+2026-04-18 17:18:39,467 INFO =================================================================
+2026-04-18 17:18:39,468 INFO   D19 Beach Safety Gradio Prototype v2
+2026-04-18 17:18:39,468 INFO   Student : Singo Loua | 240086608
+2026-04-18 17:18:39,468 INFO   Started : 2026-04-18 17:18:39
+2026-04-18 17:18:39,469 INFO   CONFIDENCE     : 0.25
+2026-04-18 17:18:39,469 INFO   FIGHT_THRESHOLD: 0.7
+2026-04-18 17:18:39,469 INFO   MIN_PEOPLE     : 2
+2026-04-18 17:18:39,469 INFO =================================================================
+2026-04-18 17:18:41,531 INFO   Ollama: Running
+2026-04-18 17:18:41,532 INFO   D13 model: Found
+2026-04-18 17:18:41,532 INFO 
+  Starting Gradio interface...
+2026-04-18 17:18:41,533 INFO   Open: http://localhost:7860
+2026-04-18 17:18:41,533 INFO =================================================================
+2026-04-18 17:18:41,984 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-04-18 17:18:42,389 INFO HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 17:18:44,614 INFO HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 17:18:46,725 INFO HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2026-04-18 17:18:46,904 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-04-18 17:33:15,810 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 17:34:11,650 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-04-18 17:36:30,895 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost(None)
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost(None)>
+Traceback (most recent call last):
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\singo\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

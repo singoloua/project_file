@@ -1,0 +1,365 @@
+2026-04-17 19:28:30,655  INFO  =================================================================
+2026-04-17 19:28:30,655  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 19:28:30,655  INFO    Student    : Singo Loua | 240086608
+2026-04-17 19:28:30,656  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 19:28:30,656  INFO    VLM Model  : llava:13b
+2026-04-17 19:28:30,656  INFO    Mode       : video
+2026-04-17 19:28:30,656  INFO  =================================================================
+2026-04-17 19:28:30,656  INFO  
+Processing video: C:\beach\data\raw\beach\fighting\BEACH BRAWL 3 surfers vs paparazzi new footage [PZpDwUGySy8].mp4
+2026-04-17 19:28:30,979  INFO  
+--- Frame 1/3 (position 1186/4745) ---
+2026-04-17 19:28:30,981  INFO    Pathway 1 (Raw)...
+2026-04-17 19:30:33,136  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:30:33,148  INFO      Fight: None | Confidence: None
+2026-04-17 19:30:33,148  INFO      
+2026-04-17 19:30:33,148  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:32:36,469  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:32:36,472  INFO      Fight: None | Confidence: None
+2026-04-17 19:32:36,473  INFO      
+2026-04-17 19:32:36,473  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:34:39,152  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:34:39,154  INFO      Fight: None | YOLOv8: NO FIGHT
+2026-04-17 19:34:39,155  INFO      
+2026-04-17 19:34:39,238  INFO  
+--- Frame 2/3 (position 2372/4745) ---
+2026-04-17 19:34:39,239  INFO    Pathway 1 (Raw)...
+2026-04-17 19:37:15,572  INFO  =================================================================
+2026-04-17 19:37:15,573  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 19:37:15,573  INFO    Student    : Singo Loua | 240086608
+2026-04-17 19:37:15,574  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 19:37:15,576  INFO    VLM Model  : llava:13b
+2026-04-17 19:37:15,576  INFO    Mode       : video
+2026-04-17 19:37:15,577  INFO  =================================================================
+2026-04-17 19:37:15,577  INFO  
+Processing video: C:\beach\data\raw\beach\fighting\BEACH BRAWL 3 surfers vs paparazzi new footage [PZpDwUGySy8].mp4
+2026-04-17 19:37:16,124  INFO  
+--- Frame 1/3 (position 1186/4745) ---
+2026-04-17 19:37:16,126  INFO    Pathway 1 (Raw)...
+2026-04-17 19:39:18,730  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:39:18,730  INFO      Fight: None | Confidence: None
+2026-04-17 19:39:18,731  INFO      
+2026-04-17 19:39:18,731  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:41:21,441  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:41:21,442  INFO      Fight: None | Confidence: None
+2026-04-17 19:41:21,442  INFO      
+2026-04-17 19:41:21,443  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:43:24,415  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:43:24,416  INFO      Fight: None | YOLOv8: NO FIGHT
+2026-04-17 19:43:24,417  INFO      
+2026-04-17 19:43:24,455  INFO  
+--- Frame 2/3 (position 2372/4745) ---
+2026-04-17 19:43:24,456  INFO    Pathway 1 (Raw)...
+2026-04-17 19:45:26,525  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:45:26,530  INFO      Fight: None | Confidence: None
+2026-04-17 19:45:26,531  INFO      
+2026-04-17 19:45:26,531  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:47:28,983  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:47:28,985  INFO      Fight: None | Confidence: None
+2026-04-17 19:47:28,986  INFO      
+2026-04-17 19:47:28,987  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:51:01,391  INFO  =================================================================
+2026-04-17 19:51:01,393  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 19:51:01,393  INFO    Student    : Singo Loua | 240086608
+2026-04-17 19:51:01,393  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 19:51:01,393  INFO    VLM Model  : llava:13b
+2026-04-17 19:51:01,394  INFO    Mode       : video
+2026-04-17 19:51:01,394  INFO  =================================================================
+2026-04-17 19:51:01,394  INFO  
+Processing video: C:\beach\data\raw\beach\fighting\BEACH BRAWL 3 surfers vs paparazzi new footage [PZpDwUGySy8].mp4
+2026-04-17 19:51:01,636  INFO  
+--- Frame 1/3 (position 1186/4745) ---
+2026-04-17 19:51:01,636  INFO    Pathway 1 (Raw)...
+2026-04-17 19:51:05,754  ERROR  Cannot connect to Ollama. Make sure 'ollama serve' is running.
+2026-04-17 19:51:05,754  INFO      Fight: None | Confidence: None
+2026-04-17 19:51:05,755  INFO      
+2026-04-17 19:51:05,755  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:51:10,366  ERROR  Cannot connect to Ollama. Make sure 'ollama serve' is running.
+2026-04-17 19:51:10,367  INFO      Fight: None | Confidence: None
+2026-04-17 19:51:10,367  INFO      
+2026-04-17 19:51:10,367  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:51:14,742  ERROR  Cannot connect to Ollama. Make sure 'ollama serve' is running.
+2026-04-17 19:51:14,742  INFO      Fight: None | YOLOv8: NO FIGHT
+2026-04-17 19:51:14,742  INFO      
+2026-04-17 19:51:14,797  INFO  
+--- Frame 2/3 (position 2372/4745) ---
+2026-04-17 19:51:14,798  INFO    Pathway 1 (Raw)...
+2026-04-17 19:51:18,866  ERROR  Cannot connect to Ollama. Make sure 'ollama serve' is running.
+2026-04-17 19:51:18,866  INFO      Fight: None | Confidence: None
+2026-04-17 19:51:18,867  INFO      
+2026-04-17 19:51:18,867  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:51:23,211  ERROR  Cannot connect to Ollama. Make sure 'ollama serve' is running.
+2026-04-17 19:51:23,211  INFO      Fight: None | Confidence: None
+2026-04-17 19:51:23,212  INFO      
+2026-04-17 19:51:23,212  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:53:21,483  INFO  =================================================================
+2026-04-17 19:53:21,483  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 19:53:21,483  INFO    Student    : Singo Loua | 240086608
+2026-04-17 19:53:21,484  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 19:53:21,484  INFO    VLM Model  : llava:13b
+2026-04-17 19:53:21,484  INFO    Mode       : video
+2026-04-17 19:53:21,485  INFO  =================================================================
+2026-04-17 19:53:21,485  INFO  
+Processing video: C:\beach\data\raw\beach\fighting\BEACH BRAWL 3 surfers vs paparazzi new footage [PZpDwUGySy8].mp4
+2026-04-17 19:53:21,590  INFO  
+--- Frame 1/3 (position 1186/4745) ---
+2026-04-17 19:53:21,591  INFO    Pathway 1 (Raw)...
+2026-04-17 19:55:23,696  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:55:23,711  INFO      Fight: None | Confidence: None
+2026-04-17 19:55:23,712  INFO      
+2026-04-17 19:55:23,712  INFO    Pathway 2 (Thermal)...
+2026-04-17 19:57:26,807  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:57:26,808  INFO      Fight: None | Confidence: None
+2026-04-17 19:57:26,809  INFO      
+2026-04-17 19:57:26,809  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 19:59:29,404  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 19:59:29,405  INFO      Fight: None | YOLOv8: NO FIGHT
+2026-04-17 19:59:29,405  INFO      
+2026-04-17 19:59:29,471  INFO  
+--- Frame 2/3 (position 2372/4745) ---
+2026-04-17 19:59:29,471  INFO    Pathway 1 (Raw)...
+2026-04-17 20:01:31,533  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 20:01:31,547  INFO      Fight: None | Confidence: None
+2026-04-17 20:01:31,547  INFO      
+2026-04-17 20:01:31,548  INFO    Pathway 2 (Thermal)...
+2026-04-17 20:03:34,495  ERROR  LLaVA query error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-04-17 20:03:34,810  INFO      Fight: None | Confidence: None
+2026-04-17 20:03:34,825  INFO      
+2026-04-17 20:03:34,867  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 20:04:47,931  INFO  =================================================================
+2026-04-17 20:04:47,936  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 20:04:47,936  INFO    Student    : Singo Loua | 240086608
+2026-04-17 20:04:47,936  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 20:04:47,938  INFO    VLM Model  : llava:13b
+2026-04-17 20:04:47,939  INFO    Mode       : video
+2026-04-17 20:04:47,939  INFO  =================================================================
+2026-04-17 20:04:47,940  INFO  
+Processing video: C:\beach\data\raw\beach\fighting\BEACH BRAWL 3 surfers vs paparazzi new footage [PZpDwUGySy8].mp4
+2026-04-17 20:04:48,645  INFO  
+--- Frame 1/3 (position 1186/4745) ---
+2026-04-17 20:04:48,645  INFO    Pathway 1 (Raw)...
+2026-04-17 20:09:58,009  INFO      Fight: False | Confidence: HIGH
+2026-04-17 20:09:58,021  INFO      A woman standing on a beach talking into a microphone.
+2026-04-17 20:09:58,022  INFO    Pathway 2 (Thermal)...
+2026-04-17 20:14:21,552  INFO      Fight: False | Confidence: MEDIUM
+2026-04-17 20:14:21,559  INFO      A person walking towards a building.
+2026-04-17 20:14:21,560  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 20:18:43,760  INFO      Fight: False | YOLOv8: NO FIGHT
+2026-04-17 20:18:43,767  INFO      A person walking alone at night.
+2026-04-17 20:18:43,847  INFO  
+--- Frame 2/3 (position 2372/4745) ---
+2026-04-17 20:18:43,847  INFO    Pathway 1 (Raw)...
+2026-04-17 20:23:27,755  INFO      Fight: False | Confidence: HIGH
+2026-04-17 20:23:27,755  INFO      A group of people on a beach, some standing and others sitting or lying down.
+2026-04-17 20:23:27,757  INFO    Pathway 2 (Thermal)...
+2026-04-17 20:27:49,385  INFO      Fight: False | Confidence: HIGH
+2026-04-17 20:27:49,388  INFO      The image is black and does not contain any visible content for analysis.
+2026-04-17 20:27:49,389  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 20:32:26,069  INFO      Fight: False | YOLOv8: FIGHT
+2026-04-17 20:32:26,072  INFO      No visible fight or aggressive behavior.
+2026-04-17 20:32:26,130  INFO  
+--- Frame 3/3 (position 3558/4745) ---
+2026-04-17 20:32:26,132  INFO    Pathway 1 (Raw)...
+2026-04-17 20:37:12,959  INFO      Fight: False | Confidence: HIGH
+2026-04-17 20:37:12,960  INFO      A group of people standing on a beach, with some wearing uniforms and others not.
+2026-04-17 20:37:12,960  INFO    Pathway 2 (Thermal)...
+2026-04-17 20:41:52,644  INFO      Fight: False | Confidence: HIGH
+2026-04-17 20:41:52,644  INFO      Two people standing close to each other with no visible signs of aggression or physical contact.
+2026-04-17 20:41:52,645  INFO    Pathway 3 (DL+Thermal)...
+2026-04-17 20:46:34,507  INFO      Fight: False | YOLOv8: NO FIGHT
+2026-04-17 20:46:34,507  INFO      Two people standing close to each other with no visible signs of aggression or physical contact.
+2026-04-17 20:49:30,631  INFO  =================================================================
+2026-04-17 20:49:30,633  INFO    D14 LLaVA:13b VLM Integration
+2026-04-17 20:49:30,633  INFO    Student    : Singo Loua | 240086608
+2026-04-17 20:49:30,633  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-17 20:49:30,634  INFO    VLM Model  : llava:13b
+2026-04-17 20:49:30,634  INFO    Mode       : evaluate
+2026-04-17 20:49:30,634  INFO  =================================================================
+2026-04-17 20:49:30,634  INFO  =================================================================
+2026-04-17 20:49:30,634  INFO    D14 VLM Three-Pathway Evaluation
+2026-04-17 20:49:30,635  INFO    Student : Singo Loua | 240086608
+2026-04-17 20:49:30,635  INFO    Model   : llava:13b
+2026-04-17 20:49:30,635  INFO    Samples : 20 frames
+2026-04-17 20:49:30,635  INFO    Started : 2026-04-17 20:49:30
+2026-04-17 20:49:30,635  INFO  =================================================================
+2026-04-17 20:49:32,680  INFO  Ollama connection: OK
+2026-04-17 20:49:32,680  INFO  
+Loading models...
+2026-04-17 20:49:32,829  INFO    Segmentation model loaded
+2026-04-17 20:49:32,873  INFO    D13 classification model loaded
+2026-04-17 20:49:33,344  INFO  
+Selected 20 test frames (10 fight, 10 no_fight)
+2026-04-17 20:49:33,345  INFO  
+Frame 1/20: frame_0003016.jpg (True: no_fight)
+2026-04-17 20:49:33,365  INFO    Running Pathway 1 (Raw)...
+2026-04-17 20:54:24,717  INFO      P1: fight=False conf=HIGH correct=True time=291.35s
+2026-04-17 20:54:24,718  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 20:59:08,366  INFO      P2: fight=False conf=HIGH correct=True time=283.24s
+2026-04-17 20:59:08,367  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 21:03:47,777  INFO      P3: fight=False yolo=NO FIGHT correct=True time=279.16s
+2026-04-17 21:03:47,777  INFO  
+Frame 2/20: frame_0001126.jpg (True: no_fight)
+2026-04-17 21:03:47,781  INFO    Running Pathway 1 (Raw)...
+2026-04-17 21:08:19,467  INFO      P1: fight=False conf=HIGH correct=True time=271.68s
+2026-04-17 21:08:19,468  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 21:08:54,367  INFO      P2: fight=False conf=HIGH correct=True time=34.74s
+2026-04-17 21:08:54,367  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 21:13:36,737  INFO      P3: fight=False yolo=FIGHT correct=True time=282.2s
+2026-04-17 21:13:36,738  INFO  
+Frame 3/20: frame_0002619.jpg (True: no_fight)
+2026-04-17 21:13:36,743  INFO    Running Pathway 1 (Raw)...
+2026-04-17 21:18:23,357  INFO      P1: fight=False conf=HIGH correct=True time=286.61s
+2026-04-17 21:18:23,357  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 21:22:59,633  INFO      P2: fight=False conf=HIGH correct=True time=276.11s
+2026-04-17 21:22:59,633  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 21:27:47,395  INFO      P3: fight=False yolo=NO FIGHT correct=True time=287.59s
+2026-04-17 21:27:47,396  INFO  
+Frame 4/20: frame_0004467.jpg (True: fight)
+2026-04-17 21:27:47,401  INFO    Running Pathway 1 (Raw)...
+2026-04-17 21:32:32,726  INFO      P1: fight=False conf=HIGH correct=False time=285.32s
+2026-04-17 21:32:32,727  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 21:37:05,575  INFO      P2: fight=False conf=HIGH correct=False time=272.69s
+2026-04-17 21:37:05,575  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 21:41:42,740  INFO      P3: fight=False yolo=FIGHT correct=False time=276.99s
+2026-04-17 21:41:42,740  INFO  
+Frame 5/20: frame_0001828.jpg (True: fight)
+2026-04-17 21:41:42,744  INFO    Running Pathway 1 (Raw)...
+2026-04-17 21:46:26,198  INFO      P1: fight=False conf=HIGH correct=False time=283.45s
+2026-04-17 21:46:26,198  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 21:50:57,593  INFO      P2: fight=False conf=HIGH correct=False time=271.23s
+2026-04-17 21:50:57,594  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 21:55:29,784  INFO      P3: fight=False yolo=FIGHT correct=False time=272.02s
+2026-04-17 21:55:29,784  INFO  
+Frame 6/20: frame_0000839.jpg (True: fight)
+2026-04-17 21:55:29,789  INFO    Running Pathway 1 (Raw)...
+2026-04-17 22:00:04,935  INFO      P1: fight=False conf=HIGH correct=False time=275.14s
+2026-04-17 22:00:04,935  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 22:00:39,320  INFO      P2: fight=False conf=HIGH correct=False time=34.23s
+2026-04-17 22:00:39,320  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 22:05:25,121  INFO      P3: fight=False yolo=FIGHT correct=False time=285.63s
+2026-04-17 22:05:25,122  INFO  
+Frame 7/20: frame_0001143.jpg (True: fight)
+2026-04-17 22:05:25,126  INFO    Running Pathway 1 (Raw)...
+2026-04-17 22:10:18,659  INFO      P1: fight=False conf=HIGH correct=False time=293.53s
+2026-04-17 22:10:18,660  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 22:14:51,381  INFO      P2: fight=False conf=HIGH correct=False time=272.57s
+2026-04-17 22:14:51,382  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 22:19:21,124  INFO      P3: fight=False yolo=FIGHT correct=False time=269.56s
+2026-04-17 22:19:21,124  INFO  
+Frame 8/20: frame_0000102.jpg (True: no_fight)
+2026-04-17 22:19:21,129  INFO    Running Pathway 1 (Raw)...
+2026-04-17 22:23:59,869  INFO      P1: fight=False conf=HIGH correct=True time=278.74s
+2026-04-17 22:23:59,869  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 22:28:29,839  INFO      P2: fight=False conf=HIGH correct=True time=269.81s
+2026-04-17 22:28:29,839  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 22:33:03,474  INFO      P3: fight=False yolo=NO FIGHT correct=True time=273.46s
+2026-04-17 22:33:03,474  INFO  
+Frame 9/20: frame_0000456.jpg (True: no_fight)
+2026-04-17 22:33:03,480  INFO    Running Pathway 1 (Raw)...
+2026-04-17 22:37:51,648  INFO      P1: fight=False conf=HIGH correct=True time=288.16s
+2026-04-17 22:37:51,648  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 22:42:24,705  INFO      P2: fight=False conf=HIGH correct=True time=272.9s
+2026-04-17 22:42:24,705  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 22:46:53,673  INFO      P3: fight=False yolo=NO FIGHT correct=True time=268.76s
+2026-04-17 22:46:53,673  INFO  
+Frame 10/20: frame_0001003.jpg (True: no_fight)
+2026-04-17 22:46:53,678  INFO    Running Pathway 1 (Raw)...
+2026-04-17 22:51:42,535  INFO      P1: fight=False conf=MEDIUM correct=True time=288.85s
+2026-04-17 22:51:42,536  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 22:56:13,168  INFO      P2: fight=False conf=HIGH correct=True time=270.46s
+2026-04-17 22:56:13,169  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:00:41,748  INFO      P3: fight=False yolo=NO FIGHT correct=True time=268.41s
+2026-04-17 23:00:41,748  INFO  
+Frame 11/20: frame_0004837.jpg (True: fight)
+2026-04-17 23:00:41,753  INFO    Running Pathway 1 (Raw)...
+2026-04-17 23:05:09,715  INFO      P1: fight=False conf=HIGH correct=False time=267.96s
+2026-04-17 23:05:09,715  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 23:05:44,192  INFO      P2: fight=False conf=HIGH correct=False time=34.32s
+2026-04-17 23:05:44,192  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:10:20,007  INFO      P3: fight=False yolo=FIGHT correct=False time=275.64s
+2026-04-17 23:10:20,008  INFO  
+Frame 12/20: frame_0000712.jpg (True: fight)
+2026-04-17 23:10:20,035  INFO    Running Pathway 1 (Raw)...
+2026-04-17 23:14:48,593  INFO      P1: fight=False conf=HIGH correct=False time=268.56s
+2026-04-17 23:14:48,593  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 23:15:23,475  INFO      P2: fight=False conf=HIGH correct=False time=34.72s
+2026-04-17 23:15:23,476  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:19:57,799  INFO      P3: fight=False yolo=FIGHT correct=False time=274.14s
+2026-04-17 23:19:57,799  INFO  
+Frame 13/20: frame_0000419.jpg (True: no_fight)
+2026-04-17 23:19:57,825  INFO    Running Pathway 1 (Raw)...
+2026-04-17 23:24:38,095  INFO      P1: fight=False conf=HIGH correct=True time=280.27s
+2026-04-17 23:24:38,095  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 23:29:06,591  INFO      P2: fight=False conf=HIGH correct=True time=268.34s
+2026-04-17 23:29:06,591  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:33:35,626  INFO      P3: fight=False yolo=NO FIGHT correct=True time=268.86s
+2026-04-17 23:33:35,627  INFO  
+Frame 14/20: frame_0002006.jpg (True: fight)
+2026-04-17 23:33:35,631  INFO    Running Pathway 1 (Raw)...
+2026-04-17 23:38:06,661  INFO      P1: fight=False conf=HIGH correct=False time=271.03s
+2026-04-17 23:38:06,661  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 23:38:41,196  INFO      P2: fight=False conf=HIGH correct=False time=34.38s
+2026-04-17 23:38:41,196  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:43:25,362  INFO      P3: fight=False yolo=FIGHT correct=False time=283.99s
+2026-04-17 23:43:25,362  INFO  
+Frame 15/20: frame_0000914.jpg (True: no_fight)
+2026-04-17 23:43:25,368  INFO    Running Pathway 1 (Raw)...
+2026-04-17 23:48:03,564  INFO      P1: fight=False conf=HIGH correct=True time=278.19s
+2026-04-17 23:48:03,564  INFO    Running Pathway 2 (Thermal)...
+2026-04-17 23:52:31,736  INFO      P2: fight=False conf=HIGH correct=True time=268.01s
+2026-04-17 23:52:31,737  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-17 23:57:02,776  INFO      P3: fight=False yolo=FIGHT correct=True time=270.87s
+2026-04-17 23:57:02,777  INFO  
+Frame 16/20: frame_0000912.jpg (True: fight)
+2026-04-17 23:57:02,804  INFO    Running Pathway 1 (Raw)...
+2026-04-18 00:01:34,896  INFO      P1: fight=False conf=HIGH correct=False time=272.09s
+2026-04-18 00:01:34,897  INFO    Running Pathway 2 (Thermal)...
+2026-04-18 00:02:04,176  INFO      P2: fight=False conf=HIGH correct=False time=29.12s
+2026-04-18 00:02:04,176  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-18 00:06:34,475  INFO      P3: fight=False yolo=FIGHT correct=False time=270.12s
+2026-04-18 00:06:34,476  INFO  
+Frame 17/20: frame_0000204.jpg (True: fight)
+2026-04-18 00:06:34,481  INFO    Running Pathway 1 (Raw)...
+2026-04-18 00:11:17,639  INFO      P1: fight=False conf=HIGH correct=False time=283.15s
+2026-04-18 00:11:17,639  INFO    Running Pathway 2 (Thermal)...
+2026-04-18 00:15:40,792  INFO      P2: fight=False conf=HIGH correct=False time=263.0s
+2026-04-18 00:15:40,793  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-18 00:20:07,162  INFO      P3: fight=False yolo=FIGHT correct=False time=266.19s
+2026-04-18 00:20:07,163  INFO  
+Frame 18/20: frame_0003037.jpg (True: no_fight)
+2026-04-18 00:20:07,194  INFO    Running Pathway 1 (Raw)...
+2026-04-18 00:24:34,048  INFO      P1: fight=False conf=HIGH correct=True time=266.85s
+2026-04-18 00:24:34,048  INFO    Running Pathway 2 (Thermal)...
+2026-04-18 00:25:09,231  INFO      P2: fight=False conf=HIGH correct=True time=35.02s
+2026-04-18 00:25:09,231  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-18 00:29:44,967  INFO      P3: fight=False yolo=FIGHT correct=True time=275.56s
+2026-04-18 00:29:44,968  INFO  
+Frame 19/20: frame_0002253.jpg (True: fight)
+2026-04-18 00:29:44,972  INFO    Running Pathway 1 (Raw)...
+2026-04-18 00:34:19,938  INFO      P1: fight=False conf=HIGH correct=False time=274.96s
+2026-04-18 00:34:19,938  INFO    Running Pathway 2 (Thermal)...
+2026-04-18 00:38:58,240  INFO      P2: fight=False conf=HIGH correct=False time=278.14s
+2026-04-18 00:38:58,240  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-18 00:43:31,897  INFO      P3: fight=False yolo=FIGHT correct=False time=273.48s
+2026-04-18 00:43:31,897  INFO  
+Frame 20/20: frame_0000571.jpg (True: no_fight)
+2026-04-18 00:43:31,903  INFO    Running Pathway 1 (Raw)...
+2026-04-18 00:48:15,872  INFO      P1: fight=False conf=HIGH correct=True time=283.97s
+2026-04-18 00:48:15,872  INFO    Running Pathway 2 (Thermal)...
+2026-04-18 00:52:45,444  INFO      P2: fight=False conf=HIGH correct=True time=269.41s
+2026-04-18 00:52:45,445  INFO    Running Pathway 3 (DL+Thermal)...
+2026-04-18 00:57:41,923  INFO      P3: fight=False yolo=NO FIGHT correct=True time=296.3s
+2026-04-18 00:57:41,923  INFO  
+=================================================================
+2026-04-18 00:57:41,923  INFO    D14 VLM EVALUATION RESULTS
+2026-04-18 00:57:41,923  INFO  =================================================================
+2026-04-18 00:57:41,925  INFO    Pathway 1 (Raw Frame           ): 50.00% (10/20 correct)
+2026-04-18 00:57:41,925  INFO    Pathway 2 (Thermal Frame       ): 50.00% (10/20 correct)
+2026-04-18 00:57:41,925  INFO    Pathway 3 (DL+Thermal          ): 50.00% (10/20 correct)
+2026-04-18 00:57:41,925  INFO  =================================================================
+2026-04-18 00:57:41,933  INFO  
+  Results saved to: C:\beach\results\d14_vlm_results.json
+2026-04-18 00:57:41,933  INFO    Log file        : C:\beach\logs\d14_vlm.log
+2026-04-18 00:57:41,933  INFO  
+  NEXT STEP: D15 — Evaluation report + D19 Gradio prototype
+2026-04-18 00:57:41,934  INFO  =================================================================

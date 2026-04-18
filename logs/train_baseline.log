@@ -1,0 +1,391 @@
+2026-04-10 02:01:14,500  INFO  =================================================================
+2026-04-10 02:01:14,500  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-10 02:01:14,501  INFO    Student  : Singo Loua | 240086608
+2026-04-10 02:01:14,501  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-10 02:01:14,501  INFO    Model    : yolov8n-cls.pt
+2026-04-10 02:01:14,501  INFO    Dataset  : C:\beach\data\split
+2026-04-10 02:01:14,501  INFO    Epochs   : 20
+2026-04-10 02:01:14,503  INFO    Batch    : 16
+2026-04-10 02:01:14,503  INFO    Img size : 640
+2026-04-10 02:01:14,504  INFO    LR       : 0.001
+2026-04-10 02:01:14,504  INFO    Patience : 10 (early stopping)
+2026-04-10 02:01:14,505  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-10 02:01:14,505  INFO    Started  : 2026-04-10 02:01:14
+2026-04-10 02:01:14,505  INFO  =================================================================
+2026-04-10 02:01:14,505  INFO  Verifying dataset structure...
+2026-04-10 02:01:15,091  INFO    data\split\train\fight  —  24,217 frames
+2026-04-10 02:01:15,165  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-10 02:01:15,312  INFO    data\split\val\fight  —  5,495 frames
+2026-04-10 02:01:15,326  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-10 02:01:15,347  INFO    data\split\test\fight  —  5,067 frames
+2026-04-10 02:01:15,364  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-10 02:01:15,365  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-10 02:01:15,365  INFO  (Downloads ~6MB if not already cached)
+2026-04-10 02:01:16,821  INFO    Model loaded.
+
+2026-04-10 02:01:16,822  INFO  Starting training — this will take several hours on CPU.
+2026-04-10 02:01:16,822  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-10 19:11:20,673  INFO  =================================================================
+2026-04-10 19:11:20,674  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-10 19:11:20,674  INFO    Student  : Singo Loua | 240086608
+2026-04-10 19:11:20,674  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-10 19:11:20,674  INFO    Model    : yolov8n-cls.pt
+2026-04-10 19:11:20,674  INFO    Dataset  : C:\beach\data\split
+2026-04-10 19:11:20,675  INFO    Epochs   : 20
+2026-04-10 19:11:20,675  INFO    Batch    : 16
+2026-04-10 19:11:20,675  INFO    Img size : 640
+2026-04-10 19:11:20,675  INFO    LR       : 0.001
+2026-04-10 19:11:20,675  INFO    Patience : 10 (early stopping)
+2026-04-10 19:11:20,676  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-10 19:11:20,676  INFO    Started  : 2026-04-10 19:11:20
+2026-04-10 19:11:20,676  INFO  =================================================================
+2026-04-10 19:11:20,676  INFO  Verifying dataset structure...
+2026-04-10 19:11:22,198  INFO    data\split\train\fight  —  24,217 frames
+2026-04-10 19:11:23,037  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-10 19:11:23,433  INFO    data\split\val\fight  —  5,495 frames
+2026-04-10 19:11:23,606  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-10 19:11:23,799  INFO    data\split\test\fight  —  5,067 frames
+2026-04-10 19:11:24,000  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-10 19:11:24,000  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-10 19:11:24,001  INFO  (Downloads ~6MB if not already cached)
+2026-04-10 19:11:24,119  INFO    Model loaded.
+
+2026-04-10 19:11:24,120  INFO  Starting training — this will take several hours on CPU.
+2026-04-10 19:11:24,120  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-11 18:14:15,753  INFO  =================================================================
+2026-04-11 18:14:15,753  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-11 18:14:15,753  INFO    Student  : Singo Loua | 240086608
+2026-04-11 18:14:15,754  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-11 18:14:15,754  INFO    Model    : yolov8n-cls.pt
+2026-04-11 18:14:15,754  INFO    Dataset  : C:\beach\data\split
+2026-04-11 18:14:15,755  INFO    Epochs   : 20
+2026-04-11 18:14:15,755  INFO    Batch    : 16
+2026-04-11 18:14:15,755  INFO    Img size : 640
+2026-04-11 18:14:15,756  INFO    LR       : 0.001
+2026-04-11 18:14:15,756  INFO    Patience : 10 (early stopping)
+2026-04-11 18:14:15,756  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-11 18:14:15,756  INFO    Started  : 2026-04-11 18:14:15
+2026-04-11 18:14:15,756  INFO  =================================================================
+2026-04-11 18:14:15,756  INFO  Verifying dataset structure...
+2026-04-11 18:14:17,421  INFO    data\split\train\fight  —  24,217 frames
+2026-04-11 18:14:18,086  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-11 18:14:18,554  INFO    data\split\val\fight  —  5,495 frames
+2026-04-11 18:14:18,759  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-11 18:14:19,001  INFO    data\split\test\fight  —  5,067 frames
+2026-04-11 18:14:19,195  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-11 18:14:19,196  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-11 18:14:19,196  INFO  (Downloads ~6MB if not already cached)
+2026-04-11 18:14:19,323  INFO    Model loaded.
+
+2026-04-11 18:14:19,323  INFO  Starting training — this will take several hours on CPU.
+2026-04-11 18:14:19,324  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-11 19:34:45,505  INFO  =================================================================
+2026-04-11 19:34:45,505  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-11 19:34:45,505  INFO    Student  : Singo Loua | 240086608
+2026-04-11 19:34:45,505  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-11 19:34:45,506  INFO    Model    : yolov8n-cls.pt
+2026-04-11 19:34:45,506  INFO    Dataset  : C:\beach\data\split
+2026-04-11 19:34:45,507  INFO    Epochs   : 20
+2026-04-11 19:34:45,507  INFO    Batch    : 16
+2026-04-11 19:34:45,507  INFO    Img size : 640
+2026-04-11 19:34:45,507  INFO    LR       : 0.001
+2026-04-11 19:34:45,507  INFO    Patience : 10 (early stopping)
+2026-04-11 19:34:45,507  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-11 19:34:45,507  INFO    Started  : 2026-04-11 19:34:45
+2026-04-11 19:34:45,507  INFO  =================================================================
+2026-04-11 19:34:45,508  INFO  Verifying dataset structure...
+2026-04-11 19:34:47,103  INFO    data\split\train\fight  —  24,217 frames
+2026-04-11 19:34:47,966  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-11 19:34:48,417  INFO    data\split\val\fight  —  5,495 frames
+2026-04-11 19:34:48,609  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-11 19:34:48,843  INFO    data\split\test\fight  —  5,067 frames
+2026-04-11 19:34:49,054  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-11 19:34:49,055  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-11 19:34:49,056  INFO  (Downloads ~6MB if not already cached)
+2026-04-11 19:34:49,139  INFO    Model loaded.
+
+2026-04-11 19:34:49,139  INFO  Starting training — this will take several hours on CPU.
+2026-04-11 19:34:49,139  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-11 22:13:38,254  INFO  =================================================================
+2026-04-11 22:13:38,254  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-11 22:13:38,254  INFO    Student  : Singo Loua | 240086608
+2026-04-11 22:13:38,256  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-11 22:13:38,256  INFO    Model    : yolov8n-cls.pt
+2026-04-11 22:13:38,256  INFO    Dataset  : C:\beach\data\split
+2026-04-11 22:13:38,257  INFO    Epochs   : 20
+2026-04-11 22:13:38,257  INFO    Batch    : 8
+2026-04-11 22:13:38,257  INFO    Img size : 224
+2026-04-11 22:13:38,257  INFO    LR       : 0.001
+2026-04-11 22:13:38,257  INFO    Patience : 10 (early stopping)
+2026-04-11 22:13:38,257  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-11 22:13:38,258  INFO    Started  : 2026-04-11 22:13:38
+2026-04-11 22:13:38,258  INFO  =================================================================
+2026-04-11 22:13:38,258  INFO  Verifying dataset structure...
+2026-04-11 22:13:38,889  INFO    data\split\train\fight  —  24,217 frames
+2026-04-11 22:13:39,093  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-11 22:13:39,463  INFO    data\split\val\fight  —  5,495 frames
+2026-04-11 22:13:39,676  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-11 22:13:39,794  INFO    data\split\test\fight  —  5,067 frames
+2026-04-11 22:13:39,949  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-11 22:13:39,949  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-11 22:13:39,949  INFO  (Downloads ~6MB if not already cached)
+2026-04-11 22:13:40,020  INFO    Model loaded.
+
+2026-04-11 22:13:40,020  INFO  Starting training — this will take several hours on CPU.
+2026-04-11 22:13:40,021  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-11 22:24:33,109  INFO  =================================================================
+2026-04-11 22:24:33,109  INFO    D12 YOLOv8 Baseline Classification Training
+2026-04-11 22:24:33,109  INFO    Student  : Singo Loua | 240086608
+2026-04-11 22:24:33,110  INFO    Method   : CRISP-DM Phase 4 — Modelling
+2026-04-11 22:24:33,110  INFO    Model    : yolov8n-cls.pt
+2026-04-11 22:24:33,110  INFO    Dataset  : C:\beach\data\split
+2026-04-11 22:24:33,110  INFO    Epochs   : 20
+2026-04-11 22:24:33,111  INFO    Batch    : 8
+2026-04-11 22:24:33,111  INFO    Img size : 224
+2026-04-11 22:24:33,111  INFO    LR       : 0.001
+2026-04-11 22:24:33,111  INFO    Patience : 10 (early stopping)
+2026-04-11 22:24:33,111  INFO    Output   : C:\beach\models\d12_baseline
+2026-04-11 22:24:33,111  INFO    Started  : 2026-04-11 22:24:33
+2026-04-11 22:24:33,111  INFO  =================================================================
+2026-04-11 22:24:33,111  INFO  Verifying dataset structure...
+2026-04-11 22:24:33,200  INFO    data\split\train\fight  —  24,217 frames
+2026-04-11 22:24:33,261  INFO    data\split\train\no_fight  —  17,961 frames
+2026-04-11 22:24:33,377  INFO    data\split\val\fight  —  5,495 frames
+2026-04-11 22:24:33,392  INFO    data\split\val\no_fight  —  3,767 frames
+2026-04-11 22:24:33,409  INFO    data\split\test\fight  —  5,067 frames
+2026-04-11 22:24:33,424  INFO    data\split\test\no_fight  —  3,931 frames
+2026-04-11 22:24:33,425  INFO  
+Loading model: yolov8n-cls.pt...
+2026-04-11 22:24:33,425  INFO  (Downloads ~6MB if not already cached)
+2026-04-11 22:24:33,457  INFO    Model loaded.
+
+2026-04-11 22:24:33,458  INFO  Starting training — this will take several hours on CPU.
+2026-04-11 22:24:33,458  INFO  You can monitor progress below. Press Ctrl+C to stop early.
+
+2026-04-11 22:30:55,215  INFO  =================================================================
+2026-04-11 22:30:55,216  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-11 22:30:55,216  INFO    Student    : Singo Loua | 240086608
+2026-04-11 22:30:55,217  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-11 22:30:55,217  INFO    Train size : 5,000 images (subset of 42,178)
+2026-04-11 22:30:55,218  INFO    Val size   : 1,500 images
+2026-04-11 22:30:55,218  INFO    Epochs     : 20
+2026-04-11 22:30:55,218  INFO    Batch      : 8
+2026-04-11 22:30:55,218  INFO    Img size   : 224px
+2026-04-11 22:30:55,219  INFO    Started    : 2026-04-11 22:30:55
+2026-04-11 22:30:55,219  INFO  =================================================================
+2026-04-11 22:30:55,219  INFO  
+Creating stratified subset...
+2026-04-11 22:30:55,389  INFO  
+  train: 42,178 available, selecting 5,000
+2026-04-11 22:31:03,548  INFO      train/fight: 2,871 images copied
+2026-04-11 22:31:09,324  INFO      train/no_fight: 2,129 images copied
+2026-04-11 22:31:09,472  INFO  
+  val: 9,262 available, selecting 1,500
+2026-04-11 22:31:11,965  INFO      val/fight: 890 images copied
+2026-04-11 22:31:13,698  INFO      val/no_fight: 610 images copied
+2026-04-11 22:31:13,698  INFO  
+  Copying test set (full)...
+2026-04-11 22:31:26,991  INFO      test/fight: 5,067 images
+2026-04-11 22:31:37,049  INFO      test/no_fight: 3,931 images
+2026-04-11 22:31:37,052  INFO  
+Subset ready. Starting training...
+2026-04-11 22:31:37,053  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-11 23:36:30,062  INFO  
+=================================================================
+2026-04-11 23:36:30,062  INFO    TRAINING COMPLETE
+2026-04-11 23:36:30,062  INFO    Best model: C:\beach\models\d12_baseline\weights\best.pt
+2026-04-11 23:36:30,063  INFO  =================================================================
+2026-04-11 23:36:30,063  INFO  
+Evaluating on full test set...
+2026-04-11 23:38:25,709  INFO  
+=================================================================
+2026-04-11 23:38:25,710  INFO    D12 FINAL TEST RESULTS
+2026-04-11 23:38:25,710  INFO  =================================================================
+2026-04-11 23:38:25,710  INFO    Top-1 Accuracy : 75.33%
+2026-04-11 23:38:25,710  INFO    Top-5 Accuracy : 100.00%
+2026-04-11 23:38:25,710  INFO  
+  Results: C:\beach\models\d12_baseline
+2026-04-11 23:38:25,711  INFO    Log    : C:\beach\logs\train_baseline.log
+2026-04-11 23:38:25,711  INFO  
+  NEXT STEP: D13 — Full training on Google Colab (GPU)
+2026-04-11 23:38:25,711  INFO  =================================================================
+2026-04-13 18:31:10,221  INFO  =================================================================
+2026-04-13 18:31:10,222  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-13 18:31:10,223  INFO    Student    : Singo Loua | 240086608
+2026-04-13 18:31:10,224  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-13 18:31:10,224  INFO    Train size : 5,000 images (subset of 42,178)
+2026-04-13 18:31:10,224  INFO    Val size   : 1,500 images
+2026-04-13 18:31:10,224  INFO    Epochs     : 50
+2026-04-13 18:31:10,225  INFO    Batch      : 8
+2026-04-13 18:31:10,225  INFO    Img size   : 224px
+2026-04-13 18:31:10,225  INFO    Started    : 2026-04-13 18:31:10
+2026-04-13 18:31:10,225  INFO  =================================================================
+2026-04-13 18:31:10,226  INFO  
+Creating stratified subset...
+2026-04-13 18:31:10,227  INFO  Removing previous subset...
+2026-04-13 18:31:19,784  INFO  
+  train: 42,178 available, selecting 5,000
+2026-04-13 18:31:27,341  INFO      train/fight: 2,871 images copied
+2026-04-13 18:31:32,826  INFO      train/no_fight: 2,129 images copied
+2026-04-13 18:31:33,304  INFO  
+  val: 9,262 available, selecting 1,500
+2026-04-13 18:31:35,578  INFO      val/fight: 890 images copied
+2026-04-13 18:31:37,123  INFO      val/no_fight: 610 images copied
+2026-04-13 18:31:37,123  INFO  
+  Copying test set (full)...
+2026-04-13 18:31:48,491  INFO      test/fight: 5,067 images
+2026-04-13 18:31:57,153  INFO      test/no_fight: 3,931 images
+2026-04-13 18:31:57,156  INFO  
+Subset ready. Starting training...
+2026-04-13 18:31:57,156  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-13 18:38:06,939  INFO  =================================================================
+2026-04-13 18:38:06,939  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-13 18:38:06,940  INFO    Student    : Singo Loua | 240086608
+2026-04-13 18:38:06,940  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-13 18:38:06,940  INFO    Train size : 42,178 images (subset of 42,178)
+2026-04-13 18:38:06,940  INFO    Val size   : 9,262 images
+2026-04-13 18:38:06,941  INFO    Epochs     : 50
+2026-04-13 18:38:06,941  INFO    Batch      : 8
+2026-04-13 18:38:06,941  INFO    Img size   : 224px
+2026-04-13 18:38:06,941  INFO    Started    : 2026-04-13 18:38:06
+2026-04-13 18:38:06,941  INFO  =================================================================
+2026-04-13 18:38:06,941  INFO  
+Creating stratified subset...
+2026-04-13 18:38:06,942  INFO  Removing previous subset...
+2026-04-13 18:38:11,571  INFO  
+  train: 42,178 available, selecting 42,178
+2026-04-13 18:39:04,566  INFO      train/fight: 24,217 images copied
+2026-04-13 18:39:44,264  INFO      train/no_fight: 17,961 images copied
+2026-04-13 18:39:44,309  INFO  
+  val: 9,262 available, selecting 9,262
+2026-04-13 18:39:56,235  INFO      val/fight: 5,495 images copied
+2026-04-13 18:40:04,320  INFO      val/no_fight: 3,767 images copied
+2026-04-13 18:40:04,320  INFO  
+  Copying test set (full)...
+2026-04-13 18:40:11,413  INFO      test/fight: 5,067 images
+2026-04-13 18:40:16,968  INFO      test/no_fight: 3,931 images
+2026-04-13 18:40:16,974  INFO  
+Subset ready. Starting training...
+2026-04-13 18:40:16,974  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-13 18:52:21,643  INFO  =================================================================
+2026-04-13 18:52:21,645  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-13 18:52:21,645  INFO    Student    : Singo Loua | 240086608
+2026-04-13 18:52:21,645  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-13 18:52:21,645  INFO    Train size : 42,178 images (subset of 42,178)
+2026-04-13 18:52:21,645  INFO    Val size   : 9,262 images
+2026-04-13 18:52:21,646  INFO    Epochs     : 50
+2026-04-13 18:52:21,646  INFO    Batch      : 8
+2026-04-13 18:52:21,646  INFO    Img size   : 224px
+2026-04-13 18:52:21,646  INFO    Started    : 2026-04-13 18:52:21
+2026-04-13 18:52:21,646  INFO  =================================================================
+2026-04-13 18:52:21,646  INFO  
+Creating stratified subset...
+2026-04-13 18:52:21,647  INFO  Removing previous subset...
+2026-04-13 18:52:47,932  INFO  
+  train: 42,178 available, selecting 42,178
+2026-04-13 18:53:42,090  INFO      train/fight: 24,217 images copied
+2026-04-13 18:54:20,924  INFO      train/no_fight: 17,961 images copied
+2026-04-13 18:54:21,415  INFO  
+  val: 9,262 available, selecting 9,262
+2026-04-13 18:54:33,543  INFO      val/fight: 5,495 images copied
+2026-04-13 18:54:41,442  INFO      val/no_fight: 3,767 images copied
+2026-04-13 18:54:41,442  INFO  
+  Copying test set (full)...
+2026-04-13 18:54:50,927  INFO      test/fight: 5,067 images
+2026-04-13 18:54:58,471  INFO      test/no_fight: 3,931 images
+2026-04-13 18:54:58,476  INFO  
+Subset ready. Starting training...
+2026-04-13 18:54:58,477  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-14 10:45:15,136  INFO  =================================================================
+2026-04-14 10:45:15,137  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-14 10:45:15,138  INFO    Student    : Singo Loua | 240086608
+2026-04-14 10:45:15,138  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-14 10:45:15,139  INFO    Train size : 42,178 images (subset of 42,178)
+2026-04-14 10:45:15,139  INFO    Val size   : 9,262 images
+2026-04-14 10:45:15,139  INFO    Epochs     : 50
+2026-04-14 10:45:15,139  INFO    Batch      : 8
+2026-04-14 10:45:15,139  INFO    Img size   : 224px
+2026-04-14 10:45:15,140  INFO    Started    : 2026-04-14 10:45:15
+2026-04-14 10:45:15,140  INFO  =================================================================
+2026-04-14 10:45:15,140  INFO  
+Creating stratified subset...
+2026-04-14 10:45:15,141  INFO  Removing previous subset...
+2026-04-14 10:45:49,408  INFO  
+  train: 42,178 available, selecting 42,178
+2026-04-14 10:46:46,494  INFO      train/fight: 24,217 images copied
+2026-04-14 10:47:29,229  INFO      train/no_fight: 17,961 images copied
+2026-04-14 10:47:29,694  INFO  
+  val: 9,262 available, selecting 9,262
+2026-04-14 10:47:42,299  INFO      val/fight: 5,495 images copied
+2026-04-14 10:47:50,991  INFO      val/no_fight: 3,767 images copied
+2026-04-14 10:47:50,992  INFO  
+  Copying test set (full)...
+2026-04-14 10:48:01,616  INFO      test/fight: 5,067 images
+2026-04-14 10:48:09,814  INFO      test/no_fight: 3,931 images
+2026-04-14 10:48:09,820  INFO  
+Subset ready. Starting training...
+2026-04-14 10:48:09,820  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-15 07:52:33,701  INFO  =================================================================
+2026-04-15 07:52:33,702  INFO    D12 YOLOv8 Baseline — CPU Subset Training
+2026-04-15 07:52:33,702  INFO    Student    : Singo Loua | 240086608
+2026-04-15 07:52:33,703  INFO    Methodology: CRISP-DM Phase 4 — Modelling
+2026-04-15 07:52:33,703  INFO    Train size : 42,178 images (subset of 42,178)
+2026-04-15 07:52:33,703  INFO    Val size   : 9,262 images
+2026-04-15 07:52:33,703  INFO    Epochs     : 50
+2026-04-15 07:52:33,703  INFO    Batch      : 8
+2026-04-15 07:52:33,703  INFO    Img size   : 224px
+2026-04-15 07:52:33,703  INFO    Started    : 2026-04-15 07:52:33
+2026-04-15 07:52:33,704  INFO  =================================================================
+2026-04-15 07:52:33,704  INFO  
+Creating stratified subset...
+2026-04-15 07:52:33,704  INFO  Removing previous subset...
+2026-04-15 07:53:00,594  INFO  
+  train: 42,178 available, selecting 42,178
+2026-04-15 07:53:55,776  INFO      train/fight: 24,217 images copied
+2026-04-15 07:54:35,880  INFO      train/no_fight: 17,961 images copied
+2026-04-15 07:54:36,307  INFO  
+  val: 9,262 available, selecting 9,262
+2026-04-15 07:54:48,590  INFO      val/fight: 5,495 images copied
+2026-04-15 07:54:56,630  INFO      val/no_fight: 3,767 images copied
+2026-04-15 07:54:56,632  INFO  
+  Copying test set (full)...
+2026-04-15 07:55:06,215  INFO      test/fight: 5,067 images
+2026-04-15 07:55:13,975  INFO      test/no_fight: 3,931 images
+2026-04-15 07:55:13,980  INFO  
+Subset ready. Starting training...
+2026-04-15 07:55:13,982  INFO  Each epoch should take 5-15 minutes on CPU.
+
+2026-04-17 11:59:09,715  INFO  
+=================================================================
+2026-04-17 11:59:09,716  INFO    TRAINING COMPLETE
+2026-04-17 11:59:09,716  INFO    Best model: C:\beach\models\d12_baseline\weights\best.pt
+2026-04-17 11:59:09,716  INFO  =================================================================
+2026-04-17 11:59:09,717  INFO  
+Evaluating on full test set...
+2026-04-17 12:01:11,335  INFO  
+=================================================================
+2026-04-17 12:01:11,336  INFO    D12 FINAL TEST RESULTS
+2026-04-17 12:01:11,336  INFO  =================================================================
+2026-04-17 12:01:11,336  INFO    Top-1 Accuracy : 77.78%
+2026-04-17 12:01:11,336  INFO    Top-5 Accuracy : 100.00%
+2026-04-17 12:01:11,336  INFO  
+  Results: C:\beach\models\d12_baseline
+2026-04-17 12:01:11,336  INFO    Log    : C:\beach\logs\train_baseline.log
+2026-04-17 12:01:11,337  INFO  
+  NEXT STEP: D13 — Full training on Google Colab (GPU)
+2026-04-17 12:01:11,337  INFO  =================================================================

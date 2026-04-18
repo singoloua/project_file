@@ -1,0 +1,171 @@
+2026-04-09 00:25:15,487  INFO  =================================================================
+2026-04-09 00:25:15,487  INFO    D10 Thermal Warm-Silhouette Pipeline
+2026-04-09 00:25:15,488  INFO    Student : Singo Loua | 240086608
+2026-04-09 00:25:15,488  INFO    FPS     : 5 frames/sec sampled
+2026-04-09 00:25:15,489  INFO    Max     : 200 frames/video
+2026-04-09 00:25:15,489  INFO    Conf    : 0.4 minimum detection confidence
+2026-04-09 00:25:15,489  INFO  =================================================================
+2026-04-09 00:25:15,491  INFO  
+Loading YOLOv8 segmentation model (yolov8n-seg.pt)...
+2026-04-09 00:25:25,689  INFO    Model ready.
+
+2026-04-09 00:25:25,952  INFO  Preview: C:\beach\data\raw\beach\fighting\Surfers fight on the beach #fight #viral #surfer #mma #streetfi....mp4 — press Q to quit
+2026-04-09 00:46:13,910  INFO  =================================================================
+2026-04-09 00:46:13,911  INFO    D10 Thermal Warm-Silhouette Pipeline
+2026-04-09 00:46:13,911  INFO    Student : Singo Loua | 240086608
+2026-04-09 00:46:13,912  INFO    FPS     : 5 frames/sec sampled
+2026-04-09 00:46:13,912  INFO    Max     : 200 frames/video
+2026-04-09 00:46:13,912  INFO    Conf    : 0.4 minimum detection confidence
+2026-04-09 00:46:13,912  INFO  =================================================================
+2026-04-09 00:46:13,914  INFO  
+Loading YOLOv8 segmentation model (yolov8n-seg.pt)...
+2026-04-09 00:46:13,997  INFO    Model ready.
+
+2026-04-09 00:46:13,999  INFO  
+=================================================================
+2026-04-09 00:46:13,999  INFO    Dataset  : beach_youtube
+2026-04-09 00:46:13,999  INFO    Label    : fight
+2026-04-09 00:46:13,999  INFO    Videos   : 5
+2026-04-09 00:46:14,000  INFO    Source   : C:\beach\data\raw\beach\fighting
+2026-04-09 00:46:14,000  INFO    Output   : C:\beach\data\thermal\fight\beach_youtube
+2026-04-09 00:46:14,000  INFO  =================================================================
+2026-04-09 00:48:36,651  INFO    [beach_youtube] Done: 598 frames, 1326 person detections
+2026-04-09 00:48:36,653  INFO  
+=================================================================
+2026-04-09 00:48:36,653  INFO    Dataset  : gemini
+2026-04-09 00:48:36,654  INFO    Label    : fight
+2026-04-09 00:48:36,654  INFO    Videos   : 16
+2026-04-09 00:48:36,654  INFO    Source   : C:\beach\data\raw\gemini
+2026-04-09 00:48:36,655  INFO    Output   : C:\beach\data\thermal\fight\gemini
+2026-04-09 00:48:36,655  INFO  =================================================================
+2026-04-09 00:55:01,078  INFO    [gemini] Done: 608 frames, 5992 person detections
+2026-04-09 00:55:01,212  INFO  
+=================================================================
+2026-04-09 00:55:01,212  INFO    Dataset  : hockey_fight
+2026-04-09 00:55:01,213  INFO    Label    : fight
+2026-04-09 00:55:01,214  INFO    Videos   : 1000
+2026-04-09 00:55:01,214  INFO    Source   : C:\beach\data\raw\hockey-fight
+2026-04-09 00:55:01,216  INFO    Output   : C:\beach\data\thermal\fight\hockey_fight
+2026-04-09 00:55:01,218  INFO  =================================================================
+2026-04-09 01:30:07,411  INFO    [hockey_fight] Done: 8007 frames, 19660 person detections
+2026-04-09 01:30:07,419  INFO  
+=================================================================
+2026-04-09 01:30:07,419  INFO    Dataset  : movies_fight
+2026-04-09 01:30:07,420  INFO    Label    : fight
+2026-04-09 01:30:07,420  INFO    Videos   : 100
+2026-04-09 01:30:07,420  INFO    Source   : C:\beach\data\raw\movies-fight\fights
+2026-04-09 01:30:07,420  INFO    Output   : C:\beach\data\thermal\fight\movies_fight
+2026-04-09 01:30:07,421  INFO  =================================================================
+2026-04-09 01:33:36,555  INFO    [movies_fight] Done: 882 frames, 1422 person detections
+2026-04-09 01:33:36,561  INFO  
+=================================================================
+2026-04-09 01:33:36,562  INFO    Dataset  : movies_nofight
+2026-04-09 01:33:36,562  INFO    Label    : no_fight
+2026-04-09 01:33:36,562  INFO    Videos   : 101
+2026-04-09 01:33:36,562  INFO    Source   : C:\beach\data\raw\movies-fight\noFights
+2026-04-09 01:33:36,563  INFO    Output   : C:\beach\data\thermal\no_fight\movies_nofight
+2026-04-09 01:33:36,563  INFO  =================================================================
+2026-04-09 01:36:35,826  INFO    [movies_nofight] Done: 808 frames, 729 person detections
+2026-04-09 01:36:35,895  INFO  
+=================================================================
+2026-04-09 01:36:35,896  INFO    Dataset  : real_life_violence
+2026-04-09 01:36:35,896  INFO    Label    : fight
+2026-04-09 01:36:35,896  INFO    Videos   : 1000
+2026-04-09 01:36:35,896  INFO    Source   : C:\beach\data\raw\real-life-violence\Real Life Violence Dataset\Violence
+2026-04-09 01:36:35,896  INFO    Output   : C:\beach\data\thermal\fight\real_life_violence
+2026-04-09 01:36:35,897  INFO  =================================================================
+2026-04-09 03:12:37,852  INFO    [real_life_violence] Done: 24684 frames, 42067 person detections
+2026-04-09 03:12:37,867  INFO  
+=================================================================
+2026-04-09 03:12:37,867  INFO    Dataset  : real_life_violence
+2026-04-09 03:12:37,868  INFO    Label    : fight
+2026-04-09 03:12:37,868  INFO    Videos   : 1000
+2026-04-09 03:12:37,868  INFO    Source   : C:\beach\data\raw\real-life-violence\real life violence situations\Real Life Violence Dataset\Violence
+2026-04-09 03:12:37,868  INFO    Output   : C:\beach\data\thermal\fight\real_life_violence
+2026-04-09 03:12:37,868  INFO  =================================================================
+2026-04-09 04:45:38,327  INFO    [real_life_violence] Done: 24684 frames, 42067 person detections
+2026-04-09 04:45:38,340  INFO  
+=================================================================
+2026-04-09 04:45:38,341  INFO    Dataset  : real_life_nofight
+2026-04-09 04:45:38,341  INFO    Label    : no_fight
+2026-04-09 04:45:38,341  INFO    Videos   : 1000
+2026-04-09 04:45:38,341  INFO    Source   : C:\beach\data\raw\real-life-violence\Real Life Violence Dataset\NonViolence
+2026-04-09 04:45:38,341  INFO    Output   : C:\beach\data\thermal\no_fight\real_life_nofight
+2026-04-09 04:45:38,342  INFO  =================================================================
+2026-04-09 06:19:41,164  INFO    [real_life_nofight] Done: 24509 frames, 45778 person detections
+2026-04-09 06:19:41,185  INFO  
+=================================================================
+2026-04-09 06:19:41,186  INFO    Dataset  : real_life_nofight
+2026-04-09 06:19:41,186  INFO    Label    : no_fight
+2026-04-09 06:19:41,186  INFO    Videos   : 1000
+2026-04-09 06:19:41,186  INFO    Source   : C:\beach\data\raw\real-life-violence\real life violence situations\Real Life Violence Dataset\NonViolence
+2026-04-09 06:19:41,187  INFO    Output   : C:\beach\data\thermal\no_fight\real_life_nofight
+2026-04-09 06:19:41,187  INFO  =================================================================
+2026-04-09 07:50:31,962  INFO    [real_life_nofight] Done: 24509 frames, 45778 person detections
+2026-04-09 07:50:31,964  INFO  
+=================================================================
+2026-04-09 07:50:31,965  INFO    D10 PIPELINE COMPLETE — Output Summary
+2026-04-09 07:50:31,965  INFO  =================================================================
+2026-04-09 07:50:34,127  INFO    fight       : 34,779 frames
+2026-04-09 07:50:35,020  INFO    no_fight    : 25,317 frames
+2026-04-09 07:50:35,021  INFO  
+  Full output: C:\beach\data\thermal
+2026-04-09 07:50:35,021  INFO    Log file  : C:\beach\logs\thermal_pipeline.log
+2026-04-09 07:50:35,021  INFO  
+  NEXT STEP : Run D11 dataset splitting script.
+2026-04-09 07:50:35,021  INFO  =================================================================
+2026-04-10 01:06:16,433  INFO  =================================================================
+2026-04-10 01:06:16,434  INFO    D10 Thermal Warm-Silhouette Pipeline
+2026-04-10 01:06:16,434  INFO    Student : Singo Loua | 240086608
+2026-04-10 01:06:16,434  INFO    FPS     : 5 frames/sec sampled
+2026-04-10 01:06:16,435  INFO    Max     : 200 frames/video
+2026-04-10 01:06:16,435  INFO    Conf    : 0.4 minimum detection confidence
+2026-04-10 01:06:16,435  INFO  =================================================================
+2026-04-10 01:06:16,436  INFO  
+Loading YOLOv8 segmentation model (yolov8n-seg.pt)...
+2026-04-10 01:06:16,636  INFO    Model ready.
+
+2026-04-10 01:06:16,636  INFO  
+=================================================================
+2026-04-10 01:06:16,638  INFO    D10 PIPELINE COMPLETE — Output Summary
+2026-04-10 01:06:16,638  INFO  =================================================================
+2026-04-10 01:06:18,588  INFO    fight       : 34,779 frames
+2026-04-10 01:06:19,792  INFO    no_fight    : 25,317 frames
+2026-04-10 01:06:19,793  INFO  
+  Full output: C:\beach\data\thermal
+2026-04-10 01:06:19,793  INFO    Log file  : C:\beach\logs\thermal_pipeline.log
+2026-04-10 01:06:19,793  INFO  
+  NEXT STEP : Run D11 dataset splitting script.
+2026-04-10 01:06:19,794  INFO  =================================================================
+2026-04-10 01:17:38,689  INFO  =================================================================
+2026-04-10 01:17:38,690  INFO    D10 Thermal Warm-Silhouette Pipeline
+2026-04-10 01:17:38,690  INFO    Student : Singo Loua | 240086608
+2026-04-10 01:17:38,691  INFO    FPS     : 5 frames/sec sampled
+2026-04-10 01:17:38,691  INFO    Max     : 200 frames/video
+2026-04-10 01:17:38,691  INFO    Conf    : 0.4 minimum detection confidence
+2026-04-10 01:17:38,691  INFO  =================================================================
+2026-04-10 01:17:38,694  INFO  
+Loading YOLOv8 segmentation model (yolov8n-seg.pt)...
+2026-04-10 01:17:38,860  INFO    Model ready.
+
+2026-04-10 01:17:38,864  INFO  
+=================================================================
+2026-04-10 01:17:38,865  INFO    Dataset  : gemini_nofight
+2026-04-10 01:17:38,865  INFO    Label    : no_fight
+2026-04-10 01:17:38,865  INFO    Videos   : 9
+2026-04-10 01:17:38,866  INFO    Source   : C:\beach\data\raw\gemini\no_fight
+2026-04-10 01:17:38,866  INFO    Output   : C:\beach\data\thermal\no_fight\gemini_nofight
+2026-04-10 01:17:38,866  INFO  =================================================================
+2026-04-10 01:19:22,313  INFO    [gemini_nofight] Done: 342 frames, 3102 person detections
+2026-04-10 01:19:22,313  INFO  
+=================================================================
+2026-04-10 01:19:22,315  INFO    D10 PIPELINE COMPLETE — Output Summary
+2026-04-10 01:19:22,315  INFO  =================================================================
+2026-04-10 01:19:24,810  INFO    fight       : 34,779 frames
+2026-04-10 01:19:26,523  INFO    no_fight    : 25,659 frames
+2026-04-10 01:19:26,523  INFO  
+  Full output: C:\beach\data\thermal
+2026-04-10 01:19:26,525  INFO    Log file  : C:\beach\logs\thermal_pipeline.log
+2026-04-10 01:19:26,525  INFO  
+  NEXT STEP : Run D11 dataset splitting script.
+2026-04-10 01:19:26,525  INFO  =================================================================
