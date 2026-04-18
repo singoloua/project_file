@@ -1,0 +1,968 @@
+{
+  "metadata": {
+    "student": "Singo Loua | 240086608",
+    "date": "2026-04-18 00:57:41",
+    "model": "llava:13b",
+    "samples": 20,
+    "d13_model": "C:\\beach\\models\\d13_full\\weights\\best.pt"
+  },
+  "summary": {
+    "1": {
+      "accuracy": 50.0,
+      "correct": 10,
+      "total": 20
+    },
+    "2": {
+      "accuracy": 50.0,
+      "correct": 10,
+      "total": 20
+    },
+    "3": {
+      "accuracy": 50.0,
+      "correct": 10,
+      "total": 20
+    }
+  },
+  "results": [
+    {
+      "frame": "frame_0003016.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 5\nDESCRIPTION: A group of people standing together with no signs of aggression or physical contact.\nREASONING: The image shows a group of people standing close to each other, but there are no indications of body postures that suggest fighting or aggressive gestures. Their proximity could be due to socializing or waiting in line, and the lack of any visible signs of conflict leads to the conclusion that no fight is detected.",
+          "response_time": 291.35,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 5,
+          "description": "A group of people standing together with no signs of aggression or physical contact.",
+          "reasoning": "The image shows a group of people standing close to each other, but there are no indications of body postures that suggest fighting or aggressive gestures. Their proximity could be due to socializing or waiting in line, and the lack of any visible signs of conflict leads to the conclusion that no fight is detected.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 283.24,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is a black screen with text that reads \"Not fight, right fight.\"\nREASONING: There are no visible signs of physical contact or aggressive gestures in the provided image.",
+          "response_time": 279.16,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is a black screen with text that reads \"Not fight, right fight.\"",
+          "reasoning": "There are no visible signs of physical contact or aggressive gestures in the provided image.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.001,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0001126.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: No physical contact, body postures or aggressive gestures are present in the image.",
+          "response_time": 271.68,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "No physical contact, body postures or aggressive gestures are present in the image.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "response_time": 34.74,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark background with no people, making it impossible to observe any physical contact or aggressive gestures that would indicate a fight.",
+          "response_time": 282.2,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark background with no people, making it impossible to observe any physical contact or aggressive gestures that would indicate a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0002619.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 1\nDESCRIPTION: A person standing with hands at sides and no visible aggressive gestures or physical contact.\nREASONING: The image shows a single person standing still, without any signs of aggression or physical contact. There are no indications of a fight occurring.",
+          "response_time": 286.61,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 1,
+          "description": "A person standing with hands at sides and no visible aggressive gestures or physical contact.",
+          "reasoning": "The image shows a single person standing still, without any signs of aggression or physical contact. There are no indications of a fight occurring.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 276.11,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible signs of fighting or aggressive behavior.\nREASONING: The image shows a dark area with no clear indication of physical contact, body postures that suggest fighting, or any other aggressive gestures. There are no people visible in the image, and there is no crowd dynamics to analyze.",
+          "response_time": 287.59,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible signs of fighting or aggressive behavior.",
+          "reasoning": "The image shows a dark area with no clear indication of physical contact, body postures that suggest fighting, or any other aggressive gestures. There are no people visible in the image, and there is no crowd dynamics to analyze.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.0,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0004467.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 4\nDESCRIPTION: People walking on a beach at night.\nREASONING: The body postures and physical contact are not indicative of aggression or fighting; the group appears to be casually strolling along the shore, with no signs of conflict or confrontation.",
+          "response_time": 285.32,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 4,
+          "description": "People walking on a beach at night.",
+          "reasoning": "The body postures and physical contact are not indicative of aggression or fighting; the group appears to be casually strolling along the shore, with no signs of conflict or confrontation.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "response_time": 272.69,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No people are visible in this image.\nREASONING: There is no physical contact, aggressive gestures, or crowd dynamics to suggest a fight has occurred or is occurring.",
+          "response_time": 276.99,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No people are visible in this image.",
+          "reasoning": "There is no physical contact, aggressive gestures, or crowd dynamics to suggest a fight has occurred or is occurring.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.999,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0001828.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 4\nDESCRIPTION: People walking on a beach at night.\nREASONING: The body postures and physical contact are not indicative of fighting; the group appears to be walking together in a relaxed manner, with no aggressive gestures or signs of conflict.",
+          "response_time": 283.45,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 4,
+          "description": "People walking on a beach at night.",
+          "reasoning": "The body postures and physical contact are not indicative of fighting; the group appears to be walking together in a relaxed manner, with no aggressive gestures or signs of conflict.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics to analyze as the image is empty.",
+          "response_time": 271.23,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics to analyze as the image is empty.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No people are visible in this image.\nREASONING: There is no physical contact, aggressive gestures or crowd dynamics to indicate a fight. The image appears to be blank or empty.",
+          "response_time": 272.02,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No people are visible in this image.",
+          "reasoning": "There is no physical contact, aggressive gestures or crowd dynamics to indicate a fight. The image appears to be blank or empty.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.989,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000839.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "response_time": 275.14,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 34.23,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is a black screen with text that reads \"FIGHT DETECTED\" and \"YOU ARE AN AI SAFETY SYSTEM MONITORING BEACH SURVEILLANCE FOOTAGE.\"\nREASONING: There are no visible people or physical contact in the image, so it is not possible to detect a fight.",
+          "response_time": 285.63,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is a black screen with text that reads \"FIGHT DETECTED\" and \"YOU ARE AN AI SAFETY SYSTEM MONITORING BEACH SURVEILLANCE FOOTAGE.\"",
+          "reasoning": "There are no visible people or physical contact in the image, so it is not possible to detect a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0001143.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 1\nDESCRIPTION: A person standing on a beach at night.\nREASONING: The image shows a single person standing alone on the beach, with no signs of physical contact or aggressive gestures. There is no indication of a crowd or any other people in the vicinity. The body posture appears relaxed and there are no indications of fighting or conflict.",
+          "response_time": 293.53,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 1,
+          "description": "A person standing on a beach at night.",
+          "reasoning": "The image shows a single person standing alone on the beach, with no signs of physical contact or aggressive gestures. There is no indication of a crowd or any other people in the vicinity. The body posture appears relaxed and there are no indications of fighting or conflict.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "response_time": 272.57,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No people are visible in this image.\nREASONING: There is no physical contact, aggressive gestures, or crowd dynamics to suggest a fight has occurred.",
+          "response_time": 269.56,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No people are visible in this image.",
+          "reasoning": "There is no physical contact, aggressive gestures, or crowd dynamics to suggest a fight has occurred.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.791,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000102.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 1\nDESCRIPTION: A person standing alone on a dark beach at night.\nREASONING: The image shows a single individual with no signs of physical contact or aggressive gestures, and the context suggests a peaceful setting rather than a fight scenario.",
+          "response_time": 278.74,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 1,
+          "description": "A person standing alone on a dark beach at night.",
+          "reasoning": "The image shows a single individual with no signs of physical contact or aggressive gestures, and the context suggests a peaceful setting rather than a fight scenario.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "response_time": 269.81,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No people visible on the beach.\nREASONING: The image shows an empty beach with no signs of physical contact, aggressive gestures or crowd dynamics that would indicate a fight.",
+          "response_time": 273.46,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No people visible on the beach.",
+          "reasoning": "The image shows an empty beach with no signs of physical contact, aggressive gestures or crowd dynamics that would indicate a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.016,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000456.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 2\nDESCRIPTION: Two people standing close together with no visible aggressive gestures or physical contact.\nREASONING: The image shows two individuals standing close to each other, but there is no clear evidence of any aggressive behavior or physical contact that would indicate a fight. Their body postures are neutral and do not suggest any signs of conflict.",
+          "response_time": 288.16,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 2,
+          "description": "Two people standing close together with no visible aggressive gestures or physical contact.",
+          "reasoning": "The image shows two individuals standing close to each other, but there is no clear evidence of any aggressive behavior or physical contact that would indicate a fight. Their body postures are neutral and do not suggest any signs of conflict.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black.\nREASONING: There are no visible body postures, physical contact, aggressive gestures or crowd dynamics to analyze.",
+          "response_time": 272.9,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black.",
+          "reasoning": "There are no visible body postures, physical contact, aggressive gestures or crowd dynamics to analyze.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible signs of a fight or physical contact between individuals.\nREASONING: The image shows no indications of aggressive behavior, body postures, or physical contact that would suggest a fight is taking place.",
+          "response_time": 268.76,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible signs of a fight or physical contact between individuals.",
+          "reasoning": "The image shows no indications of aggressive behavior, body postures, or physical contact that would suggest a fight is taking place.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.021,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0001003.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: MEDIUM\nPEOPLE_COUNT: 5\nDESCRIPTION: A group of people walking on a beach at night, with one person carrying a bottle and another holding an umbrella.\nREASONING: The image shows a group of people walking together in a line, but there is no clear indication of physical contact or aggressive gestures that would suggest a fight. The body postures are relaxed, and the crowd dynamics appear to be calm and orderly.",
+          "response_time": 288.85,
+          "fight_detected": false,
+          "confidence": "MEDIUM",
+          "people_count": 5,
+          "description": "A group of people walking on a beach at night, with one person carrying a bottle and another holding an umbrella.",
+          "reasoning": "The image shows a group of people walking together in a line, but there is no clear indication of physical contact or aggressive gestures that would suggest a fight. The body postures are relaxed, and the crowd dynamics appear to be calm and orderly.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 270.46,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible signs of a fight or aggressive behavior.\nREASONING: The image shows no physical contact, body postures indicative of fighting, or any other signs of an ongoing fight.",
+          "response_time": 268.41,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible signs of a fight or aggressive behavior.",
+          "reasoning": "The image shows no physical contact, body postures indicative of fighting, or any other signs of an ongoing fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.057,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0004837.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and does not show any people or activity.\nREASONING: There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics in the image provided.",
+          "response_time": 267.96,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and does not show any people or activity.",
+          "reasoning": "There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics in the image provided.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "response_time": 34.32,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: MEDIUM\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark area with no clear indication of physical contact, body postures that suggest fighting, or any other signs of an ongoing fight.",
+          "response_time": 275.64,
+          "fight_detected": false,
+          "confidence": "MEDIUM",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark area with no clear indication of physical contact, body postures that suggest fighting, or any other signs of an ongoing fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000712.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "response_time": 268.56,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "response_time": 34.72,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark area with no people and no clear indication of physical contact, body postures, or aggressive gestures that would suggest a fight is taking place.",
+          "response_time": 274.14,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark area with no people and no clear indication of physical contact, body postures, or aggressive gestures that would suggest a fight is taking place.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000419.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 1\nDESCRIPTION: A person walking alone on a dark beach at night.\nREASONING: The image shows a single individual walking, with no signs of physical contact or aggressive gestures. There is no indication of a crowd or group dynamics that would suggest a fight.",
+          "response_time": 280.27,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 1,
+          "description": "A person walking alone on a dark beach at night.",
+          "reasoning": "The image shows a single individual walking, with no signs of physical contact or aggressive gestures. There is no indication of a crowd or group dynamics that would suggest a fight.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "response_time": 268.34,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is completely black.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark area with no people and no clear indication of physical contact, body postures, or aggressive gestures that would suggest a fight is taking place.",
+          "response_time": 268.86,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark area with no people and no clear indication of physical contact, body postures, or aggressive gestures that would suggest a fight is taking place.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.088,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0002006.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "response_time": 271.03,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image provided.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 34.38,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is a black screen with text that reads \"YOU ARE AN AI SAFETY SYSTEM MONITORING BEACH SURVEILLANCE FOOTAGE.\"\nREASONING: There are no visible people or physical contact in the image, and there are no aggressive gestures or crowd dynamics to indicate a fight.",
+          "response_time": 283.99,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is a black screen with text that reads \"YOU ARE AN AI SAFETY SYSTEM MONITORING BEACH SURVEILLANCE FOOTAGE.\"",
+          "reasoning": "There are no visible people or physical contact in the image, and there are no aggressive gestures or crowd dynamics to indicate a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000914.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 3\nDESCRIPTION: Three people walking on a beach at night.\nREASONING: The body postures and physical contact between the individuals are not aggressive, and there is no indication of crowd dynamics that would suggest a fight or conflict.",
+          "response_time": 278.19,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 3,
+          "description": "Three people walking on a beach at night.",
+          "reasoning": "The body postures and physical contact between the individuals are not aggressive, and there is no indication of crowd dynamics that would suggest a fight or conflict.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no visible content.\nREASONING: There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "response_time": 268.01,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no visible content.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures or crowd dynamics to analyze as the image is blank.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark background with no people present, making it impossible to observe any physical contact or aggressive gestures that would indicate a fight.",
+          "response_time": 270.87,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark background with no people present, making it impossible to observe any physical contact or aggressive gestures that would indicate a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.671,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000912.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image as it is completely black.",
+          "response_time": 272.09,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image as it is completely black.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black.\nREASONING: No physical contact, body postures or aggressive gestures are visible in the image.",
+          "response_time": 29.12,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black.",
+          "reasoning": "No physical contact, body postures or aggressive gestures are visible in the image.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No people are visible in this image.\nREASONING: There is no physical contact, aggressive gestures or crowd dynamics to suggest a fight has occurred or is occurring.",
+          "response_time": 270.12,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No people are visible in this image.",
+          "reasoning": "There is no physical contact, aggressive gestures or crowd dynamics to suggest a fight has occurred or is occurring.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000204.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 4\nDESCRIPTION: People standing close together on a beach.\nREASONING: The group of people are not engaged in any aggressive gestures or physical contact, and their body postures do not indicate fighting. They appear to be simply standing next to each other, which suggests that there is no fight occurring.",
+          "response_time": 283.15,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 4,
+          "description": "People standing close together on a beach.",
+          "reasoning": "The group of people are not engaged in any aggressive gestures or physical contact, and their body postures do not indicate fighting. They appear to be simply standing next to each other, which suggests that there is no fight occurring.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: Black screen with no visible content.\nREASONING: No physical contact, body postures or aggressive gestures are present in the image provided.",
+          "response_time": 263.0,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "Black screen with no visible content.",
+          "reasoning": "No physical contact, body postures or aggressive gestures are present in the image provided.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: MEDIUM\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible people or activity indicative of a fight.\nREASONING: The image does not show any physical contact, aggressive gestures, or crowd dynamics that would suggest a fight is occurring.",
+          "response_time": 266.19,
+          "fight_detected": false,
+          "confidence": "MEDIUM",
+          "people_count": 0,
+          "description": "No visible people or activity indicative of a fight.",
+          "reasoning": "The image does not show any physical contact, aggressive gestures, or crowd dynamics that would suggest a fight is occurring.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.999,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0003037.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: Black screen with no visible content.\nREASONING: No physical contact, aggressive gestures or crowd dynamics are present in the image provided.",
+          "response_time": 266.85,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "Black screen with no visible content.",
+          "reasoning": "No physical contact, aggressive gestures or crowd dynamics are present in the image provided.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and does not show any people or activity.\nREASONING: There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics in the image provided.",
+          "response_time": 35.02,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and does not show any people or activity.",
+          "reasoning": "There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics in the image provided.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark background with no people present, and there are no indications of body postures, physical contact, or aggressive gestures that would suggest a fight is taking place.",
+          "response_time": 275.56,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark background with no people present, and there are no indications of body postures, physical contact, or aggressive gestures that would suggest a fight is taking place.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.659,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0002253.jpg",
+      "true_label": "fight",
+      "true_fight": true,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 4\nDESCRIPTION: People walking on a beach at night.\nREASONING: The people are walking and not engaging in any aggressive gestures or physical contact, suggesting no fight is occurring.",
+          "response_time": 274.96,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 4,
+          "description": "People walking on a beach at night.",
+          "reasoning": "The people are walking and not engaging in any aggressive gestures or physical contact, suggesting no fight is occurring.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics to indicate a fight or any other form of interaction in the image provided.",
+          "response_time": 278.14,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no visible body postures, physical contact, aggressive gestures, or crowd dynamics to indicate a fight or any other form of interaction in the image provided.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible fight or aggressive behavior.\nREASONING: The image shows a dark background with no people, making it impossible to determine any physical contact or aggressive gestures that would indicate a fight.",
+          "response_time": 273.48,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible fight or aggressive behavior.",
+          "reasoning": "The image shows a dark background with no people, making it impossible to determine any physical contact or aggressive gestures that would indicate a fight.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "FIGHT",
+          "yolo_fight_confidence": 0.946,
+          "people_detected_yolo": 0
+        }
+      }
+    },
+    {
+      "frame": "frame_0000571.jpg",
+      "true_label": "no_fight",
+      "true_fight": false,
+      "pathways": {
+        "1": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 1\nDESCRIPTION: A person standing alone on a dark background.\nREASONING: The image shows a single person standing with no signs of physical contact or aggressive gestures, and there is no indication of a crowd or group dynamics that would suggest a fight.",
+          "response_time": 283.97,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 1,
+          "description": "A person standing alone on a dark background.",
+          "reasoning": "The image shows a single person standing with no signs of physical contact or aggressive gestures, and there is no indication of a crowd or group dynamics that would suggest a fight.",
+          "parse_error": false,
+          "pathway": 1,
+          "pathway_name": "Raw Frame"
+        },
+        "2": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: The image is black and shows no people or activity.\nREASONING: There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "response_time": 269.41,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "The image is black and shows no people or activity.",
+          "reasoning": "There are no body postures, physical contact, aggressive gestures, or crowd dynamics visible in the image.",
+          "parse_error": false,
+          "pathway": 2,
+          "pathway_name": "Thermal Frame",
+          "people_detected_yolo": 0
+        },
+        "3": {
+          "raw_response": " FIGHT_DETECTED: NO\nCONFIDENCE: HIGH\nPEOPLE_COUNT: 0\nDESCRIPTION: No visible signs of physical contact or aggressive gestures, no crowd dynamics to assess.\nREASONING: The image provided does not show any indications of a fight or physical altercation between individuals. There are no body postures that suggest fighting, and there is no physical contact or aggressive gestures visible. Additionally, the image does not provide information about crowd dynamics which could be relevant to assessing for fights in public spaces.",
+          "response_time": 296.3,
+          "fight_detected": false,
+          "confidence": "HIGH",
+          "people_count": 0,
+          "description": "No visible signs of physical contact or aggressive gestures, no crowd dynamics to assess.",
+          "reasoning": "The image provided does not show any indications of a fight or physical altercation between individuals. There are no body postures that suggest fighting, and there is no physical contact or aggressive gestures visible. Additionally, the image does not provide information about crowd dynamics which could be relevant to assessing for fights in public spaces.",
+          "parse_error": false,
+          "pathway": 3,
+          "pathway_name": "DL Pre-processed + Thermal",
+          "yolo_prediction": "NO FIGHT",
+          "yolo_fight_confidence": 0.009,
+          "people_detected_yolo": 0
+        }
+      }
+    }
+  ]
+}
